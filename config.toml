@@ -42,8 +42,8 @@ type = "kvm"
 labels = "os=debian;"
 
 [[hosts]]
-name = "hk-r"
-password = "e6167d0b-096f"
+name = "hk-1"
+password = "p2"
 alias = "hk-1"
 location = "🇭🇰"
 type = "kvm"
