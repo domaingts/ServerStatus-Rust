@@ -35,5 +35,5 @@ jobs:
       - name: upload unix binary
         uses: actions/upload-artifact@v4
         with:
-          name: realm-${{ matrix.target }}
+          name: stat_client-${{ matrix.target }}
           path: release-${{ matrix.target }}/stat_client-${{ matrix.target }}.tar.gz
